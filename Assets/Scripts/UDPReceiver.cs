@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
 using System.Net;
 using System.Net.Sockets;
 using System.Collections;
@@ -23,11 +24,19 @@ public class UDPReceiver : MonoBehaviour
     {
         while (true)
         {
-            IPEndPoint remoteEp = null;
-            var data = udp.Receive(ref  remoteEp);
-            AhrsData = data.ToQuaternion(0);
+            try
+            {
+                IPEndPoint remoteEp = null;
+                var data = udp.Receive(ref  remoteEp);
+                AhrsData = data.ToQuaternion(0);
+            }
+            catch (Exception e)
+            {
+                Debug.Log(e);
+            }
 
-            yield return new WaitForSeconds(0.001f);
+            // 30ms is a little less waiting time than ryap(40ms)
+            yield return new WaitForSeconds(0.03f);
         }
     }
 }
