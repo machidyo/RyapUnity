@@ -28,7 +28,7 @@ public class UDPReceiver : MonoBehaviour
             {
                 IPEndPoint remoteEp = null;
                 var data = udp.Receive(ref  remoteEp);
-                AhrsData = data.ToQuaternion(0);
+                AhrsData = data.ToQuaternion(32);
             }
             catch (Exception e)
             {
