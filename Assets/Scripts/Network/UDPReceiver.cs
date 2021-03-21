@@ -27,6 +27,7 @@ namespace RyapUnity.Network
 
         private IEnumerator ThreadMethod()
         {
+            IPEndPoint remoteEp = null;
             Header header = default;
             ImuData imu = default;
             ButtonData button = default;
@@ -35,7 +36,6 @@ namespace RyapUnity.Network
             {
                 try
                 {
-                    IPEndPoint remoteEp = null;
                     var data = udp.Receive(ref  remoteEp);
                     header = new Header(data.Take(HeaderDef.HeaderLength).ToArray());
                     var body = data.Skip(HeaderDef.HeaderLength).ToArray();
