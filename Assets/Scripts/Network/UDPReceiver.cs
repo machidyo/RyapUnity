@@ -21,7 +21,7 @@ namespace RyapUnity.Network
 
         void Start()
         {
-            udp = new UdpClient(localPort) {Client = {ReceiveTimeout = 100}};
+            udp = new UdpClient(localPort) {Client = {ReceiveTimeout = 500}};
             StartCoroutine(ThreadMethod());
         }
 
