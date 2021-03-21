@@ -19,6 +19,12 @@ namespace RyapUnity
             {
                 UpdateQuaternion(receiver.AhrsData);
             }
+
+            if (receiver.IsButtonAClicked)
+            {
+                receiver.IsButtonAClicked = false;
+                baseQuaternion = Quaternion.identity;
+            }
         }
 
         private void UpdateQuaternion(float[] raw)

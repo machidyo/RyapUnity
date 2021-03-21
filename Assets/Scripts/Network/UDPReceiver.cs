@@ -16,6 +16,7 @@ namespace RyapUnity.Network
         [SerializeField] private int localPort = 22222;
     
         public float[] AhrsData { get; private set; } = new float[DATA_NUMBER];
+        public bool IsButtonAClicked = false;
 
         private UdpClient udp;
 
@@ -53,6 +54,7 @@ namespace RyapUnity.Network
                             if (button.ButtonA == ButtonState.Push)
                             {
                                 Debug.Log("ButtonA Clicked");
+                                IsButtonAClicked = true;
                             }
                             if (button.ButtonB == ButtonState.Push)
                             {
