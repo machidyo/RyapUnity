@@ -1,3 +1,5 @@
+![m5stickc](https://user-images.githubusercontent.com/1772636/113173226-22ac7d00-9284-11eb-9c0f-ec699440feef.gif)
+
 # RyapUnity
 [Ryap](https://github.com/machidyo/Ryap)の動作確認をするためのリポジトリです。
 
