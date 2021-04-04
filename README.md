@@ -1,17 +1,19 @@
 # RyapUnity
-[Ryap](https://github.com/machidyo/Ryap) の動作確認をするためのリポジトリです。
+This is a repository for checking the operation of [Ryap] (https://github.com/machidyo/Ryap).
 
 <img src="https://user-images.githubusercontent.com/1772636/113173226-22ac7d00-9284-11eb-9c0f-ec699440feef.gif" width=240 />
 
-## AxisOrange ありがとうございます
-[AxisOrange](https://github.com/naninunenoy/AxisOrange) のコードを一部流用させてもらっています。 Bluetooth 経由での接続やコードの参考はこちらを利用されるのがよいかと思います。
+## Thanks to AxisOrange 
+I am using some of [AxisOrange](https://github.com/naninunenoy/AxisOrange)'s code. I think it is better to use this for reference of connection and code via Bluetooth.
 
-# 利用方法
+日本語は[こちら](https://github.com/machidyo/RyapUnity/blob/master/README.jp.md)
+
+# How to use
 1. git clone
 2. Open and run in Unity.
 
-## SocketException が発生する場合
-(sorry, this sample is Japanaese only.)
+## When SocketException occurs
+Sorry, this sample is Japanaese only.
 ```
 SocketException: 接続済みの呼び出し先が一定の時間を過ぎても正しく応答しなかったため、接続できませんでした。または接続済みのホストが応答しなかったため、確立された接続は失敗しました。
 ```
