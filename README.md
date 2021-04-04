@@ -1,12 +1,12 @@
 # RyapUnity
-This is a repository for checking the operation of [Ryap] (https://github.com/machidyo/Ryap).
+This is a repository for checking the operation of [Ryap](https://github.com/machidyo/Ryap).
 
 <img src="https://user-images.githubusercontent.com/1772636/113173226-22ac7d00-9284-11eb-9c0f-ec699440feef.gif" width=240 />
 
+日本語は[こちら](https://github.com/machidyo/RyapUnity/blob/master/README.jp.md)
+
 ## Thanks to AxisOrange 
 I am using some of [AxisOrange](https://github.com/naninunenoy/AxisOrange)'s code. I think it is better to use this for reference of connection and code via Bluetooth.
-
-日本語は[こちら](https://github.com/machidyo/RyapUnity/blob/master/README.jp.md)
 
 # How to use
 1. git clone
