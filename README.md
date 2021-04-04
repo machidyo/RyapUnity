@@ -4,7 +4,7 @@
 <img src="https://user-images.githubusercontent.com/1772636/113173226-22ac7d00-9284-11eb-9c0f-ec699440feef.gif" width=240 />
 
 ## AxisOrange ありがとうございます
-AxisOrange のコードを一部流用させてもらっています。 Bluetooth 経由での接続やコードの参考はこちらを利用されるのがよいかと思います。
+[AxisOrange](https://github.com/naninunenoy/AxisOrange) のコードを一部流用させてもらっています。 Bluetooth 経由での接続やコードの参考はこちらを利用されるのがよいかと思います。
 
 # 利用方法
 1. git clone
