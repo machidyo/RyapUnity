@@ -1,5 +1,6 @@
 # RyapUnity
-[Ryap](https://github.com/machidyo/Ryap) の動作確認をするためのリポジトリです。
+[Ryap](https://github.com/machidyo/Ryap) の動作確認をするためのリポジトリです。  
+Unity で Ryap のデータを受け取るサンプルとしても利用できます。
 
 <img src="https://user-images.githubusercontent.com/1772636/113173226-22ac7d00-9284-11eb-9c0f-ec699440feef.gif" width=240 />
 
