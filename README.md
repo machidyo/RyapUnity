@@ -1,5 +1,6 @@
 # RyapUnity
 This is a repository for checking the operation of [Ryap](https://github.com/machidyo/Ryap).
+It can also be used as a sample to receive Ryap data in Unity.
 
 <img src="https://user-images.githubusercontent.com/1772636/113173226-22ac7d00-9284-11eb-9c0f-ec699440feef.gif" width=240 />
 
