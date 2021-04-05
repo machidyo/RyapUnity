@@ -18,3 +18,9 @@ SocketException: 接続済みの呼び出し先が一定の時間を過ぎても
 Windows firewall の設定を見直してみてください。
 
 <img src="https://user-images.githubusercontent.com/1772636/111017109-cb3d8e80-83f4-11eb-9332-92aac86aa45c.jpg" width=512 />
+
+# 自分の Unity プロジェクトに取り込みたい場合
+1. Scripts フォルダ配下にあるすべてのプログラムをコピーしてください。
+2. シーンに UDPReciever を作ってください。このリポジトリのヒエラルキーを参考にしてください。
+3. シーンに M5StickC を作ってください。このリポジトリのヒエラルキーを参考にしてください。
+4. Unity を実行します。
