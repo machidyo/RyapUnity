@@ -68,8 +68,8 @@ namespace RyapUnity.Network
                     Debug.Log(e);
                 }
 
-                // 30ms is a little less waiting time than ryap(40ms)
-                yield return new WaitForSeconds(0.03f);
+                // 1ms is less than Ryap(10ms) and a little wait for unlock main thread
+                yield return new WaitForSeconds(0.001f);
             }
         }
 
